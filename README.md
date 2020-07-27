@@ -11,9 +11,9 @@ This is an very opinionated way to setup your Windows 10 workstation
 ## WSL Setup
 First set of commands that you're going to want to run
 ```bash
-apt-get update && apt-get upgrade -y
+sudo apt-get update && apt-get upgrade -y
 
-apt-get install git zsh
+sudo apt-get install git zsh -y
 
 ```
 Install oh-my-zsh for productivity
